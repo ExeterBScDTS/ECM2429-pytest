@@ -12,7 +12,7 @@ To find a location on a map try this
 https://what3words.com/pretty.resort.quick
 """
 
-__apikey = 'KEY_HERE'
+__apikey = 'BABSHCFZ'
 
 def w3w_from_coords(coords):
     uri = 'https://api.what3words.com/v3/convert-to-3wa'

@@ -5,8 +5,8 @@
 ## Notes
 It's possible to patch built-in functions.
 
-'''python
+```python
 @patch("__builtins__.open")
 def test_myfilecode(mock_open: MagicMock):
 ...
-'''
+```
